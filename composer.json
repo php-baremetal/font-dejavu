@@ -1,0 +1,13 @@
+{
+    "name": "php-baremetal/font-dejavu",
+    "description": "DejaVu Sans bitmap fonts (12, 16 and 24 px, anti-aliased) for php-baremetal ext-display.",
+    "type": "bm-lib",
+    "license": "Bitstream-Vera",
+    "authors": [{ "name": "Gianfrancesco Aurecchia", "email": "gianfri@php-baremetal.com" }],
+    "require": { "php": ">=8.3", "php-baremetal/ext-display": "^1.0" },
+    "extra": { "baremetal": { "fonts": {
+        "dejavu-sans-12": "fonts/dejavu-sans-12.h",
+        "dejavu-sans-16": "fonts/dejavu-sans-16.h",
+        "dejavu-sans-24": "fonts/dejavu-sans-24.h"
+    } } }
+}
